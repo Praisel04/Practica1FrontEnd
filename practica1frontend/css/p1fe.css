@@ -1,3 +1,34 @@
 body{
-    background-color: burlywood;
+    background-color: var(--bg-principal);
 }
+
+.btn-primary {
+    background: var(--bg-secundario);
+    border: 1px solid black;
+}
+
+.container {
+    min-width: 280px;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+
+/* UTILIZAR MEDIA QUERY MODO OSCURO */
+@media (max-width: 600px) {
+    .mediaQ {
+        color: rgb(0, 0, 0) !important;
+    }
+}
+
+/* VARIABLES COLORES */
+:root {
+    --bg-principal: #c7a3d2;
+    --bg-secundario: #7f4ea8;
+    --bg-terciario: #ba8cbe;
+    --bg-cuaternario: #9c93e5;
+};
+    
+
+

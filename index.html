@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/FrontEnd/Practica1/practica1frontend/css/p1fe.css">
-    
+
     <title>Practica 1</title>
 </head>
+
 <body>
     <!-- Formulario Basico Con BootStrap-->
 
     <div class="container">
-        <h1 class="text-center text-primary">Formulario de Registro</h1>
+        <div class="container text-center">
+            <h1 class="">Gaming Store</h1>
+            <!-- Columna 2: eslogan debajo -->
+            <div class="">
+                <p class="lead text-muted">Largest Gaming Store</p>
+            </div>
+        </div>
+
+
+
         <form>
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre:</label>
@@ -28,8 +39,26 @@
                 <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
             </div>
             <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="terminos">
+                <input type="checkbox" class="form-check-input" id="terminos" required>
                 <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
-    
+            </div>
+
+            <div class="buttons container my-3">
+                <div class="row text-center">
+                    <div class="col-12 col-md-6 mb-2 mb-md-0">
+                        <button type="submit" class="mediaQ btn btn-primary w-100">Registrarse</button>
+                    </div>
+                    <div class="col-12 col-md-6">
+
+                        <a class="mediaQ btn btn-primary text-decoration-none text-white w-100" href="./login.html">Login</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
 </body>
+
 </html>
