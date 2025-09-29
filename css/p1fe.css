@@ -5,6 +5,12 @@ body{
 .btn-primary {
     background: var(--bg-secundario);
     border: 1px solid black;
+
+}
+
+.btn-primary:hover {
+    background: var(--bg-terciario);
+    border: 1px solid black;
 }
 
 .container {
