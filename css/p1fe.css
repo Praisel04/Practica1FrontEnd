@@ -28,12 +28,18 @@ body{
     }
 }
 
+ @media (prefers-color-scheme: dark) {
+        body { background-color: #593675; color: white; };
+        #eslogan { color: var(--bg-quinto); }
+    }
+
 /* VARIABLES COLORES */
 :root {
     --bg-principal: #c7a3d2;
     --bg-secundario: #7f4ea8;
     --bg-terciario: #ba8cbe;
     --bg-cuaternario: #9c93e5;
+    --bg-quinto: #d6b9f0;
 };
     
 
